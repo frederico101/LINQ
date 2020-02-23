@@ -2,12 +2,12 @@ using System.Collections.Generic;
 
 namespace Linq
 {
-    public static class Card
+    public  class Cards
     {
         // Program.cs
 // The Main() method
 
-public static IEnumerable<string> Suits()
+public  IEnumerable<string> Suits()
 {
     yield return "clubs";
     yield return "diamonds";
@@ -15,7 +15,7 @@ public static IEnumerable<string> Suits()
     yield return "spades";
 }
 
-public static IEnumerable<string> Ranks()
+public  IEnumerable<string> Ranks()
 {
     yield return "two";
     yield return "three";
